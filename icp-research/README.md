@@ -44,10 +44,8 @@ gather signal first. See `references/research-sources.md`.
 | `references/frameworks.md` | The 5 Rings of Buyer Insight, JTBD + Four Forces, demand-side selling, buying committee |
 | `references/output-template.md` | The exact ICP document structure it fills |
 | `references/research-sources.md` | How to gather each input, incl. the community/Slack monitoring method + ethics |
-| `examples/notion-input.md` | Raw public voice-of-customer dump for **Notion** |
-| `examples/notion-output.md` | The ICP produced from it — profiles an **individual buyer and a team buyer** in one doc (modules off, then on) |
-| `examples/linear-input.md` | Raw public dump for **Linear**, produced by the opt-in public-data sweep |
-| `examples/linear-output.md` | A **team-buyer** ICP with the account-ICP and buying-committee modules switched on |
+| `examples/notion/` | **Notion** — the raw public VoC dump (`input.md`) and the ICP produced from it (`icp.md`); profiles an **individual buyer and a team buyer** in one doc (modules off, then on) |
+| `examples/linear/` | **Linear** — the raw dump + a **team-buyer** ICP (`icp.md`) with the account-ICP and buying-committee modules switched on; built by the opt-in public-data sweep |
 
 ## Method credits
 

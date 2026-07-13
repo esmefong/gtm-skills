@@ -3,7 +3,7 @@
 Who Notion is for, in detail. Anchor copy, targeting, activation, and product decisions to these.
 
 > **Real company, public data.** Built from Notion's **public** voice-of-customer discussion
-> (r/Notion, G2, published reviews). See `notion-input.md` for the raw signal and sources. Quotes
+> (r/Notion, G2, published reviews). See `input.md` for the raw signal and sources. Quotes
 > are representative and lightly edited from public discussion, handles removed.
 >
 > **This example demonstrates the skill adapting across industries within one company.** Notion's

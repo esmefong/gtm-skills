@@ -3,12 +3,12 @@
 Who Linear is for. Anchor product, positioning, and go-to-market to these.
 
 > **Real company, public data.** Built from Linear's **public** voice-of-customer discussion (G2,
-> "Linear vs Jira" comparisons and migration write-ups, Product Hunt). See `linear-input.md` for the
+> "Linear vs Jira" comparisons and migration write-ups, Product Hunt). See `input.md` for the
 > raw signal and sources. Quotes are representative and lightly edited from public discussion,
 > handles removed.
 >
 > **This example exercises the team-buyer branch.** Linear is bought by a software team, so the
-> account-level ICP and buying-committee modules switch on. (Compare `notion-output.md`, which shows
+> account-level ICP and buying-committee modules switch on. (Compare `../notion/icp.md`, which shows
 > an *individual* buyer with those modules off.) Built by the skill's opt-in public-data sweep with
 > no first-party data — so confidence is directional; see Gaps.
 

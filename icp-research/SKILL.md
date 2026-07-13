@@ -217,8 +217,9 @@ Veteran marketers judge ICP work by whether it avoids these. Check the final doc
 - `references/research-sources.md` — how to gather each input type, including the community/Slack
   monitoring method, plus research ethics and sanitization. Read when the user needs to collect signal
   or is working from community data.
-- `examples/` — two worked examples built from real, public voice-of-customer data. **Notion**
-  (`notion-input.md` / `notion-output.md`) profiles an individual buyer and a team buyer in one
-  document, showing the core stay constant while the modules switch on only for the team. **Linear**
-  (`linear-input.md` / `linear-output.md`) is a team/B2B buyer built entirely by the opt-in
-  public-data sweep.
+- `examples/` — two worked examples built from real, public voice-of-customer data, one folder per
+  brand (each with `input.md` + the produced `icp.md`). **`examples/notion/`** profiles an individual
+  buyer and a team buyer in one document, showing the core stay constant while the modules switch on
+  only for the team. **`examples/linear/`** is a team/B2B buyer built entirely by the opt-in
+  public-data sweep. (The output is named `icp.md` so it can be dropped straight into a
+  `brand-voice-guide` directory as its audience context.)

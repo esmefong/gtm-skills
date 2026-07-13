@@ -13,7 +13,7 @@ so they work for any team.
 | Skill | What it does | Status |
 |---|---|---|
 | [icp-research](icp-research/) | Turns raw first-party and public signal into an operational ICP: situation triggers, a how-to-win plan, and (for team buyers) a buying-committee map and account scoring rubric | Shipped |
-| brand-voice-guide | Extracts a voice standard from writing samples, then checks new drafts against it | Planned |
+| [brand-voice-guide](brand-voice-guide/) | Extracts a brand's voice from its real writing into a structured voice directory — tonal pillars, per-channel rules, and a writing standard with a severity-tagged list of what to avoid — each grounded in verbatim samples | Shipped |
 | content-quality-check | Editorial QA pass that catches template language, weak closers, and AI tells before publishing | Planned |
 | reengagement-segmenter | Segments a lapsed audience by their actual blocker and drafts a sequence per segment | Planned |
 | personalized-content-pipeline | Produces branded, voice-checked content per customer from a structured brief, with per-customer state | Planned |
