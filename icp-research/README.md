@@ -44,8 +44,8 @@ gather signal first. See `references/research-sources.md`.
 | `references/frameworks.md` | The 5 Rings of Buyer Insight, JTBD + Four Forces, demand-side selling, buying committee |
 | `references/output-template.md` | The exact ICP document structure it fills |
 | `references/research-sources.md` | How to gather each input, incl. the community/Slack monitoring method + ethics |
-| `examples/notion/` | **Notion**: the raw public VoC dump (`input.md`) and the ICP produced from it (`icp.md`); profiles an **individual buyer and a team buyer** in one doc (modules off, then on) |
-| `examples/linear/` | **Linear**: the raw dump plus a **team-buyer** ICP (`icp.md`) with the account-ICP and buying-committee modules switched on; built by the opt-in public-data sweep |
+| `examples/cohere/` | **Cohere** (primary): the harvest (`input.md`) and the enterprise ICP produced from it (`icp.md`), with a full buying committee where security and compliance are a structural veto |
+| `examples/notion/` | **Notion**: a second example showing the engine generalize across buyer shapes, an **individual buyer and a team buyer** in one doc (modules off, then on) |
 
 ## Method credits
 

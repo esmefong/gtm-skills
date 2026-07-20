@@ -217,9 +217,9 @@ Veteran marketers judge ICP work by whether it avoids these. Check the final doc
 - `references/research-sources.md` — how to gather each input type, including the community/Slack
   monitoring method, plus research ethics and sanitization. Read when the user needs to collect signal
   or is working from community data.
-- `examples/` — two worked examples built from real, public voice-of-customer data, one folder per
-  brand (each with `input.md` + the produced `icp.md`). **`examples/notion/`** profiles an individual
-  buyer and a team buyer in one document, showing the core stay constant while the modules switch on
-  only for the team. **`examples/linear/`** is a team/B2B buyer built entirely by the opt-in
-  public-data sweep. (The output is named `icp.md` so it can be dropped straight into a
-  `brand-voice-guide` directory as its audience context.)
+- `examples/` — worked examples built from real, public voice-of-customer data, one folder per company
+  (each with `input.md` + the produced `icp.md`). **`examples/cohere/`** is the primary example: an
+  enterprise buyer with a full buying committee where security and compliance are a structural veto.
+  **`examples/notion/`** is a second example showing the engine generalize across buyer shapes (an
+  individual buyer and a team buyer in one document). The output is named `icp.md` so it drops straight
+  into a `brand-voice-guide` directory as its audience context.
