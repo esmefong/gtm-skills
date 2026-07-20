@@ -172,8 +172,8 @@ one home for "don't": the Avoid section of `writing-standard.md` (no separate an
 - `references/question-bank.md` — the gap-filling questions, mapped to each file. Read at Phase 3.
 - `references/output-templates.md` — the exact shape of every file, plus the universal Avoid starter
   list. Read at Phase 4/5.
-- `examples/` — two worked examples built from real public copy. Each is a brand folder holding the
-  harvest (`input.md`) and the **full multi-file voice directory** the skill produced
-  (`brand-voice/`): `examples/linear/` (terse, engineer-precise) and `examples/notion/` (warm,
-  playful-clear). Same category, different voices — the contrast shows the skill capturing what's
+- `examples/` — worked examples built from real public copy. Each is a company folder holding the
+  harvest (`input.md`) and the **full multi-file voice directory** the skill produced (`brand-voice/`):
+  `examples/cohere/` (primary; enterprise-sovereign, ownership-framed) and `examples/notion/`
+  (secondary; warm, playful-clear). Different voices, so the contrast shows the skill capturing what's
   actually distinctive.

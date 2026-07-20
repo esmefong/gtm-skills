@@ -44,8 +44,8 @@ No published content yet? It runs in interview mode and builds the guide from a 
 | `references/extraction-passes.md` | The harvest engine: passes that draft each file from samples |
 | `references/question-bank.md` | Gap-filling / interview questions, mapped to each file |
 | `references/output-templates.md` | The exact shape of every file plus a universal Avoid starter list |
-| `examples/linear/` | **Linear**: the harvest (`input.md`) plus the full voice directory it produced (`brand-voice/`); terse, engineer-precise |
-| `examples/notion/` | **Notion**: the harvest plus full voice directory; warm, playful-clear |
+| `examples/cohere/` | **Cohere** (primary): the harvest (`input.md`) plus the full voice directory it produced (`brand-voice/`); enterprise-sovereign, ownership-framed |
+| `examples/notion/` | **Notion** (secondary, generality check): the harvest plus full voice directory; warm, playful-clear |
 
 The two examples are the same category with clearly different voices. Read the guides side by side to
 see the skill capturing what's actually distinctive.
