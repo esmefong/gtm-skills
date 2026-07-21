@@ -1,0 +1,41 @@
+# Scoring rubric for the Cohere account-sourcing run.
+# Derived from the account-level ICP in icp-research/examples/cohere/icp.md.
+# Format: references/output-template.md. Consumed by scripts/score_accounts.py.
+
+weights:
+  firmographic: 40
+  technographic: 25
+  signal: 35
+
+criteria:
+  firmographic:
+    - id: industry_regulated
+      desc: "Regulated or sensitive-data sector (finance, gov, health, telecom)"
+      points: 20
+    - id: size_1000_plus
+      desc: "1,000+ employees"
+      points: 20
+  technographic:
+    - id: hybrid_infra
+      desc: "On-prem, hybrid, or sovereign AI infrastructure in evidence"
+      points: 25
+  signal:
+    - id: hiring_ai_lead
+      desc: "Live posting for Head of AI / GenAI-lead role"
+      points: 20
+    - id: genai_mandate
+      desc: "Publicly announced GenAI initiative or deployment, recent"
+      points: 15
+
+disqualifiers:
+  - id: public_api_comfortable
+    desc: "Production use of public LLM APIs with no data constraint"
+  - id: committed_primary_elsewhere
+    desc: "Announced strategic commitment to a competing model provider, or an exclusive in-house build, for the same scope"
+  - id: existing_customer
+    desc: "On the suppression list (public Cohere customer or partner)"
+
+tiers:
+  tier1: 75
+  tier2: 55
+verify_below: 40

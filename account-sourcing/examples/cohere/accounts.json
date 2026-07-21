@@ -1,0 +1,639 @@
+{
+  "generated": "2026-07-21",
+  "icp_source": "icp-research/examples/cohere/icp.md",
+  "rubric": "rubric.yaml",
+  "accounts": [
+    {
+      "name": "TELUS",
+      "domain": "telus.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Canadian telecom, SEC foreign filer",
+          "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000868675",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "tens of thousands of employees",
+          "source": "https://www.telus.com/en/about",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "hybrid_infra",
+          "value": "Opened Canada's first fully sovereign AI Factory (Rimouski), sold out; expansion to BC sites announced",
+          "source": "https://www.telus.com/en/about/news-and-events/media-releases/telus-opens-canadas-first-fully-sovereign-ai-factory",
+          "date": "2025-09",
+          "evidence_tier": "A"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "Sovereign AI data center expansion across Canada; AI-enabling revenue +22 percent in Q1 per 6-K",
+          "source": "https://www.rcrwireless.com/20260512/carriers/telus-ai-data-centers",
+          "date": "2026-05-12",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [
+        {
+          "type": "initiative",
+          "detail": "Sovereign AI Factory expansion: Kamloops plus two Vancouver sites, target 60,000+ GPUs by 2032",
+          "source": "https://www.rcrwireless.com/20260512/carriers/telus-ai-data-centers",
+          "date": "2026-05-12"
+        }
+      ],
+      "entry_persona": "VP AI infrastructure / enterprise AI product (platform-partner motion; note Bell channel conflict)",
+      "score": 80,
+      "tier": 1,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 25,
+        "signal": 15
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "Partnerships",
+      "next_action": "Open a platform conversation: North as the model layer for the AI Factory expansion, modeled on the Bell AI Fabric deal. Brief the team on the Bell channel conflict first."
+    },
+    {
+      "name": "BMO",
+      "domain": "bmo.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Canadian Big Five bank",
+          "source": "https://www.bmo.com/main/about-bmo/",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 55,000 employees",
+          "source": "https://www.bmo.com/main/about-bmo/",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "Opened BMO Institute for Applied AI and Quantum; Lumi Assistant deployed to frontline staff",
+          "source": "https://www.emarketer.com/content/canadas-big-five-banks-discuss-ai-cibc-td-scotiabank-rbc-bmo",
+          "date": "2026-04",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [],
+      "entry_persona": "Head of AI / ML platform lead",
+      "score": 55,
+      "tier": 2,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 15
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "ABM and field",
+      "next_action": "Target the Institute for Applied AI and Quantum with an executive roundtable invitation."
+    },
+    {
+      "name": "CIBC",
+      "domain": "cibc.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Canadian Big Five bank",
+          "source": "https://www.cibc.com/en/about-cibc.html",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 48,000 employees",
+          "source": "https://www.cibc.com/en/about-cibc.html",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "Launched in-house AI platform CIBC AI (CAI) enterprise-wide after pilot saved 200,000+ hours",
+          "source": "https://cibc.mediaroom.com/2025-05-27-CIBC-launches-in-house-AI-platform-enterprise-wide-after-successful-pilot",
+          "date": "2025-05-27",
+          "evidence_tier": "A"
+        }
+      ],
+      "signals": [
+        {
+          "type": "initiative",
+          "detail": "Enterprise-wide in-house AI platform (CAI) is live: a platform buyer that needs private model supply",
+          "source": "https://cibc.mediaroom.com/2025-05-27-CIBC-launches-in-house-AI-platform-enterprise-wide-after-successful-pilot",
+          "date": "2025-05-27"
+        }
+      ],
+      "entry_persona": "Head of AI / ML platform lead",
+      "score": 55,
+      "tier": 2,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 15
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "Sales",
+      "next_action": "Route to the enterprise AE: CAI is live enterprise-wide and needs private model supply. Open on the 200,000-hour pilot result."
+    },
+    {
+      "name": "Desjardins Group",
+      "domain": "desjardins.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "North America's largest financial co-operative (banking, insurance, wealth)",
+          "source": "https://www.desjardins.com/ca/about-us/desjardins/who-we-are/index.jsp",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 50,000+ employees",
+          "source": "https://www.desjardins.com/ca/about-us/desjardins/who-we-are/index.jsp",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "AI virtual assistant (Alvie) deployed to all members via mobile app as part of digital transformation; multi-year AI contract with Exagens powering Assistant AccesD",
+          "source": "https://fintechmagazine.com/articles/desjardins-ai-assistant-alvie-enables-better-insights",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [
+        {
+          "type": "initiative",
+          "detail": "Member-facing AI assistant live at co-op scale; digital transformation program active",
+          "source": "https://www.fintechfutures.com/ai-in-fintech/desjardins-signs-multi-year-contract-with-ai-fintech-exagens",
+          "date": "2026-07-21"
+        }
+      ],
+      "entry_persona": "Head of AI / ML platform lead",
+      "score": 55,
+      "tier": 2,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 15
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "Sales",
+      "next_action": "Check CRM for net-new first. Open on Alvie at co-op scale plus Quebec data-residency."
+    },
+    {
+      "name": "Intact Financial",
+      "domain": "intactfc.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Canadian P&C insurer",
+          "source": "https://www.intactfc.com/about-us",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 30,000 employees",
+          "source": "https://www.intactfc.com/about-us",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "Reported approx. $200M in AI-driven returns for 2025",
+          "source": "https://thelogic.co/news/ai-investments-returns-manulife-intact/",
+          "date": "2026-02",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [],
+      "entry_persona": "Head of AI / ML platform lead",
+      "score": 55,
+      "tier": 2,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 15
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "Sales",
+      "next_action": "Open on proven AI ROI (approx. $200M reported): private deployment as the expansion path."
+    },
+    {
+      "name": "Manulife",
+      "domain": "manulife.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Canadian multinational insurer",
+          "source": "https://www.manulife.com/ca/en/about-us.html",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 38,000 employees",
+          "source": "https://www.manulife.com/ca/en/about-us.html",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "GenAI rolled out to 100 percent of global workforce (ChatMFC); 43 use cases in production, 200 more planned for 2026",
+          "source": "https://www.manulife.com/ca/en/about-us/news/genai-capabilities-rolled-out-to-all-manulife-workforce",
+          "date": "2026-01",
+          "evidence_tier": "A"
+        }
+      ],
+      "signals": [
+        {
+          "type": "initiative",
+          "detail": "Industrializing AI: enterprise AI platform buildout announced with runtime and RL vendors; $1B enterprise value target by 2027",
+          "source": "https://iireporter.com/manulife-sets-course-to-become-an-ai-powered-insurer/",
+          "date": "2026-01"
+        }
+      ],
+      "entry_persona": "Head of AI / ML platform lead",
+      "score": 55,
+      "tier": 2,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 15
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "Sales",
+      "next_action": "Engage the platform buildout: private deployment for the 200 planned use cases. Open on ChatMFC scale."
+    },
+    {
+      "name": "Scotiabank",
+      "domain": "scotiabank.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Canadian Big Five bank",
+          "source": "https://www.scotiabank.com/ca/en/about.html",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 90,000 employees",
+          "source": "https://www.scotiabank.com/ca/en/about.html",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "AI routes 90 percent of commercial banking emails; predictive AI features rolling into retail app",
+          "source": "https://www.emarketer.com/content/canadas-big-five-banks-discuss-ai-cibc-td-scotiabank-rbc-bmo",
+          "date": "2026-04",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [],
+      "entry_persona": "Head of AI / ML platform lead",
+      "score": 55,
+      "tier": 2,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 15
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "ABM and field",
+      "next_action": "Add to field-event targeting. Open on AI already routing 90 percent of commercial email."
+    },
+    {
+      "name": "Swisscom",
+      "domain": "swisscom.ch",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Swiss telecom, majority state-owned",
+          "source": "https://www.swisscom.ch/en/about.html",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 19,000 employees",
+          "source": "https://www.swisscom.ch/en/about.html",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "hybrid_infra",
+          "value": "Building sovereign AI factory and edge infrastructure for European enterprises (NVIDIA telecom program)",
+          "source": "https://www.nvidia.com/en-us/industries/telecommunications/ai-factories/",
+          "date": "2026-07-21",
+          "evidence_tier": "C"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "Group subsidiary Fastweb+Vodafone launched sovereign GenAI services (FastwebAI Suite) for business and public sector",
+          "source": "https://inform.tmforum.org/features-and-opinion/telcos-step-up-to-sovereign-ai-challenge",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [
+        {
+          "type": "initiative",
+          "detail": "Sovereign AI services motion across the group; DACH sovereignty directly adjacent to Cohere's Aleph Alpha merger footprint",
+          "source": "https://inform.tmforum.org/features-and-opinion/telcos-step-up-to-sovereign-ai-challenge",
+          "date": "2026-07-21"
+        }
+      ],
+      "entry_persona": "VP AI infrastructure / enterprise AI product (platform-partner motion)",
+      "score": 55,
+      "tier": 2,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 15
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "Partnerships",
+      "next_action": "Verify sovereign-factory participation against a primary source, then approach as a DACH platform partner alongside the Aleph Alpha integration."
+    },
+    {
+      "name": "TD Bank Group",
+      "domain": "td.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Canadian Big Five bank",
+          "source": "https://www.td.com/ca/en/about-td",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 95,000 employees",
+          "source": "https://www.td.com/ca/en/about-td",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "TD AI Prism launched June 2025; $1B annual AI value target at fall 2025 investor day; 2026 framed as year of agentic AI",
+          "source": "https://thefinancialbrand.com/news/banking-technology/td-bank-ai-genai-agentic-195829",
+          "date": "2025-06",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [
+        {
+          "type": "initiative",
+          "detail": "Agentic AI rollout across bank operations planned for 2026",
+          "source": "https://thefinancialbrand.com/news/banking-technology/td-bank-ai-genai-agentic-195829",
+          "date": "2026-01"
+        }
+      ],
+      "entry_persona": "Head of AI / ML platform lead (note: strong in-house AI heritage via Layer 6)",
+      "score": 55,
+      "tier": 2,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 15
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "Sales",
+      "next_action": "Multi-thread the AI platform org. Position as complement to in-house Layer 6 strength, timed to the 2026 agentic push."
+    },
+    {
+      "name": "Sun Life",
+      "domain": "sunlife.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Canadian multinational insurer",
+          "source": "https://www.sunlife.com/en/about-us/",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 32,000 employees",
+          "source": "https://www.sunlife.com/en/about-us/",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [],
+      "entry_persona": "Head of AI / ML platform lead",
+      "score": 40,
+      "tier": 3,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 0
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "Nurture",
+      "next_action": "No outreach yet. Run a mandate sweep next quarter; promote only on evidence."
+    },
+    {
+      "name": "Telefonica",
+      "domain": "telefonica.com",
+      "status": "qualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "industry_regulated",
+          "value": "Spanish multinational telecom",
+          "source": "https://www.telefonica.com/en/about-us/",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "size_1000_plus",
+          "value": "approx. 100,000 employees",
+          "source": "https://www.telefonica.com/en/about-us/",
+          "date": "2026-07-21",
+          "evidence_tier": "B"
+        },
+        {
+          "field": "hybrid_infra",
+          "value": "Named among European telcos expanding sovereign AI factories and edge infrastructure",
+          "source": "https://www.nvidia.com/en-us/industries/telecommunications/ai-factories/",
+          "date": "2026-07-21",
+          "evidence_tier": "C"
+        },
+        {
+          "field": "genai_mandate",
+          "value": "Sovereign AI factory program to serve European enterprises and public sector",
+          "source": "https://www.nvidia.com/en-us/industries/telecommunications/ai-factories/",
+          "date": "2026-07-21",
+          "evidence_tier": "C"
+        }
+      ],
+      "signals": [],
+      "entry_persona": "VP AI infrastructure / enterprise AI product (platform-partner motion)",
+      "score": 40,
+      "tier": 3,
+      "scores": {
+        "firmographic": 40,
+        "technographic": 0,
+        "signal": 0
+      },
+      "disqualifiers_hit": [],
+      "owner_team": "Partnerships",
+      "next_action": "Hold: confirm infrastructure and mandate claims against primary sources before any approach."
+    },
+    {
+      "name": "Bell Canada",
+      "domain": "bell.ca",
+      "status": "disqualified",
+      "suppressed": true,
+      "evidence": [
+        {
+          "field": "existing_customer",
+          "value": "Bell AI Fabric partnership runs Cohere North; $220M sovereign GPU deal with Cohere, Hypertec, BUZZ HPC",
+          "source": "https://www.cbc.ca/news/business/bell-cohere-ai-infrastructure-deal-9.7240577",
+          "date": "2026-06",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [],
+      "entry_persona": null,
+      "score": 0,
+      "tier": null,
+      "scores": {},
+      "disqualifiers_hit": [
+        "existing_customer"
+      ],
+      "owner_team": "Existing relationship",
+      "next_action": "Active partner (AI Fabric). Route through the partnership owner."
+    },
+    {
+      "name": "BNP Paribas",
+      "domain": "group.bnpparibas",
+      "status": "disqualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "committed_primary_elsewhere",
+          "value": "Group-wide multi-year agreement with Mistral AI covering all current and future models (2024), extended for three years with co-development; approx. 100 use cases live",
+          "source": "https://group.bnpparibas/en/press-release/bnp-paribas-and-mistral-ai-extend-their-partnership-to-support-the-next-phase-of-generative-ai-deployment-within-the-group",
+          "date": "2024-07-10",
+          "evidence_tier": "A"
+        }
+      ],
+      "signals": [],
+      "entry_persona": null,
+      "score": 0,
+      "tier": null,
+      "scores": {},
+      "disqualifiers_hit": [
+        "committed_primary_elsewhere"
+      ],
+      "owner_team": "Do not pursue",
+      "next_action": "Mistral lock-in through a multi-year renewal. Revisit at the renewal window."
+    },
+    {
+      "name": "Government of Canada",
+      "domain": "canada.ca",
+      "status": "disqualified",
+      "suppressed": true,
+      "evidence": [
+        {
+          "field": "existing_customer",
+          "value": "Federal partnership agreement with Cohere on public-service AI (2025); up to $240M sovereign compute investment (2024)",
+          "source": "https://www.canada.ca/en/innovation-science-economic-development/news/2025/08/canada-partners-with-cohere-to-accelerate-world-leading-artificial-intelligence.html",
+          "date": "2025-08",
+          "evidence_tier": "A"
+        }
+      ],
+      "signals": [],
+      "entry_persona": null,
+      "score": 0,
+      "tier": null,
+      "scores": {},
+      "disqualifiers_hit": [
+        "existing_customer"
+      ],
+      "owner_team": "Existing relationship",
+      "next_action": "Active federal partnership. Route through the government team."
+    },
+    {
+      "name": "RBC",
+      "domain": "rbc.com",
+      "status": "disqualified",
+      "suppressed": true,
+      "evidence": [
+        {
+          "field": "existing_customer",
+          "value": "Publicly named Cohere enterprise customer",
+          "source": "https://intuitionlabs.ai/articles/cohere-enterprise-ai-llm-profile",
+          "date": "2026-07",
+          "evidence_tier": "B"
+        }
+      ],
+      "signals": [],
+      "entry_persona": null,
+      "score": 0,
+      "tier": null,
+      "scores": {},
+      "disqualifiers_hit": [
+        "existing_customer"
+      ],
+      "owner_team": "Existing relationship",
+      "next_action": "Route any expansion through the account owner. Never cold-touch."
+    },
+    {
+      "name": "SoftBank Corp",
+      "domain": "softbank.jp",
+      "status": "disqualified",
+      "suppressed": false,
+      "evidence": [
+        {
+          "field": "committed_primary_elsewhere",
+          "value": "Launched SB OAI Japan, a 50-50 joint venture with OpenAI, to sell Crystal intelligence enterprise AI exclusively in Japan",
+          "source": "https://www.softbank.jp/en/corp/news/press/sbkk/2025/20251105_02/",
+          "date": "2025-11-05",
+          "evidence_tier": "A"
+        }
+      ],
+      "signals": [],
+      "entry_persona": null,
+      "score": 0,
+      "tier": null,
+      "scores": {},
+      "disqualifiers_hit": [
+        "committed_primary_elsewhere"
+      ],
+      "owner_team": "Do not pursue",
+      "next_action": "Locked into the OpenAI joint venture. Revisit only if the JV scope narrows."
+    }
+  ]
+}
