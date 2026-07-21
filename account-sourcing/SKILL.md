@@ -8,9 +8,10 @@ description: >
   why-now signal. Every account carries public evidence; no account is invented. Use whenever the
   user says "build a target account list", "account sourcing", "TAM list", "list building", "find
   companies to sell to", "who should we go after", "turn our ICP into a list", "prospect list",
-  "account universe", or "lead sourcing". Ships with two key-free scripts: a deterministic account
-  scorer and a live hiring-signal detector for public ATS job boards. For products bought by
-  organizations; consumes icp-research output and feeds outbound-engine.
+  "account universe", or "lead sourcing". Ships with three key-free scripts: a deterministic account
+  scorer, a live hiring-signal detector for public ATS job boards, and an executive briefing
+  renderer. For products bought by organizations; consumes icp-research output and feeds
+  outbound-engine.
 ---
 
 # Account Sourcing
