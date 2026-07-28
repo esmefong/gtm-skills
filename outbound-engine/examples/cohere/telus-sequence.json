@@ -1,0 +1,84 @@
+{
+  "generated": "2026-07-21",
+  "brand": "Cohere",
+  "account": "TELUS",
+  "motion": "enterprise-abm",
+  "lane": "Partnerships",
+  "target_role": "VP, AI Infrastructure / enterprise AI product",
+  "signal": {
+    "detail": "Sovereign AI Factory expansion: Kamloops plus two Vancouver sites, target 60,000+ GPUs by 2032",
+    "source": "https://www.rcrwireless.com/20260512/carriers/telus-ai-data-centers",
+    "date": "2026-05-12"
+  },
+  "trigger_mapping": "The expansion is new public sovereign AI capacity, and sovereign capacity sells on the model layer that runs privately on it. That is the ICP's data-residency trigger read from the supply side: TELUS's regulated customers need what Cohere's buyers need, delivered as a partner offering.",
+  "touches": [
+    {
+      "n": 1,
+      "channel": "email",
+      "day": 0,
+      "subject": "Models for the factory",
+      "body": "Your AI Factory expansion is public: Kamloops, two new Vancouver sites, a target of 60,000 GPUs by 2032. The open question for every sovereign factory is the model layer. What runs on the racks, privately, for customers who cannot send data out?\n\nThat is the layer we build. North and the Command family already run on sovereign Canadian infrastructure today: fully private, nothing leaves the environment. Your factory. Your customers' data. Our models, running inside both.\n\nWorth a 20-minute call on what a model-layer partnership could look like for the expansion sites?",
+      "ask": "20-minute call",
+      "ask_type": "call",
+      "annotations": [
+        { "type": "signal", "ref": "rcrwireless 2026-05-12: Kamloops + two Vancouver sites, 60,000+ GPUs by 2032" },
+        { "type": "icp_trigger", "ref": "data-residency / sovereignty trigger, read from the supply side" },
+        { "type": "voice", "ref": "possessive-contrast pillar: Your factory. Your customers' data. Our models." },
+        { "type": "judgment", "ref": "Bell AI Fabric precedent deliberately unnamed: rival channel conflict; 'sovereign Canadian infrastructure' carries the proof without the provocation" }
+      ]
+    },
+    {
+      "n": 2,
+      "channel": "linkedin",
+      "day": 4,
+      "subject": "",
+      "body": "The Kamloops and Vancouver expansion made the model-layer question timely. We supply private, sovereign model infrastructure in Canada today. If the factory roadmap includes a managed AI offering for enterprise customers, I would value 20 minutes with your team.",
+      "ask": "20 minutes",
+      "ask_type": "call",
+      "annotations": [
+        { "type": "signal", "ref": "same expansion signal, second channel" },
+        { "type": "rule", "ref": "LinkedIn touch stays under 70 words, one idea" }
+      ]
+    },
+    {
+      "n": 3,
+      "channel": "email",
+      "day": 9,
+      "subject": "What fills sovereign capacity",
+      "body": "One thought since my first note. GPU capacity sells to customers who already know what they will run on it. The regulated buyers filling sovereign capacity, banks, government, and health among them, need models they are allowed to deploy: private, in-country, strong at retrieval on their own data.\n\nOffer that layer with the racks and capacity becomes an AI service. That is the partnership we want to explore. Open to a short call with your enterprise product team?",
+      "ask": "short call with the enterprise product team",
+      "ask_type": "call",
+      "annotations": [
+        { "type": "icp_trigger", "ref": "the ICP's regulated-buyer situation, used as TELUS's sell-through story" },
+        { "type": "evidence", "ref": "account-sourcing: TELUS factory 'sold out' (own release, 2025-09) implies demand-side pull" },
+        { "type": "voice", "ref": "plain-over-jargon pillar; no feature list, one commercial idea" }
+      ]
+    },
+    {
+      "n": 4,
+      "channel": "email",
+      "day": 14,
+      "subject": "The model layer, briefly",
+      "body": "My team sent your infrastructure group a note about the model layer for the AI Factory expansion. The short version: sovereign capacity wins on what enterprises are allowed to run on it, and we build exactly that layer, deployed privately in Canada today. If the partnership conversation is worth having, one call between our enterprise teams settles it.",
+      "ask": "one call between enterprise teams",
+      "ask_type": "call",
+      "annotations": [
+        { "type": "icp_committee", "ref": "exec air-cover touch to an SVP-level role, per the enterprise-abm motion; single touch, not a second sequence" },
+        { "type": "rule", "ref": "peer-level register, one paragraph, call ask" }
+      ]
+    },
+    {
+      "n": 5,
+      "channel": "email",
+      "day": 21,
+      "subject": "Closing the loop",
+      "body": "Closing the loop on the model-layer conversation. If this is a 2027 question rather than a 2026 one, that is useful for us to know too, and the door stays open either way. One reply and I will calendar accordingly, or leave you to plan the buildout in peace.",
+      "ask": "one reply either way",
+      "ask_type": "reply",
+      "annotations": [
+        { "type": "rule", "ref": "flat close: no guilt, no 'just checking in', an easy no offered" },
+        { "type": "voice", "ref": "confident-calm pillar; the sequence ends without pleading" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "generated": "2026-07-21",
+  "brand": "Cohere",
+  "account": "CIBC",
+  "motion": "enterprise-abm",
+  "lane": "Sales",
+  "target_role": "Head of AI / ML platform lead",
+  "signal": {
+    "detail": "Launched in-house AI platform CIBC AI (CAI) enterprise-wide after pilot saved 200,000+ hours",
+    "source": "https://cibc.mediaroom.com/2025-05-27-CIBC-launches-in-house-AI-platform-enterprise-wide-after-successful-pilot",
+    "date": "2025-05-27"
+  },
+  "trigger_mapping": "CAI is live enterprise-wide, and an in-house platform needs private model supply. That instantiates the ICP's mandate-meets-data-constraint trigger from the platform side.",
+  "touches": [
+    {
+      "n": 1,
+      "channel": "email",
+      "day": 0,
+      "subject": "Models for CAI",
+      "body": "Congrats on the enterprise-wide CAI launch. A platform that saved 200,000 hours in pilot deserves a revolutionary model layer behind it: private, in-country, and strong at retrieval on your own data. That is what we build. Worth a 20-minute call?",
+      "ask": "20-minute call",
+      "ask_type": "call",
+      "annotations": [
+        { "type": "signal", "ref": "cibc.mediaroom.com 2025-05-27: CAI enterprise-wide" },
+        { "type": "icp_trigger", "ref": "platform buyer needing private model supply" }
+      ]
+    }
+  ]
+}
