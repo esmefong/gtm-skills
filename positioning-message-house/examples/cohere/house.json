@@ -1,0 +1,102 @@
+{
+  "generated": "2026-07-21",
+  "brand": "Cohere",
+  "icp_source": "icp-research/examples/cohere/icp.md",
+  "bet": {
+    "claim": "Enterprise AI will be won at the security gate, not the benchmark: the buyers with the largest budgets cannot send their data out, so the category that matters is deployable AI, and Cohere should own it rather than compete in the frontier race.",
+    "grounding": [
+      "ICP: security and compliance are a structural veto, and the primary trigger is a GenAI mandate colliding with a hard data constraint",
+      "Buyer frameworks: frontier model quality clusters within points; deployment location and compliance posture decide regulated purchases",
+      "Market reality: Cohere is usually the specialist choice in a multi-vendor stack, so the winning frame is the gate, not the leaderboard"
+    ],
+    "falsifier": "If hyperscaler residency guarantees (Azure OpenAI, Bedrock) prove good enough for most regulated buyers at security review, private deployment becomes a feature, not a category.",
+    "metric": "Win rate against hyperscaler-hosted options in deals that reached security review."
+  },
+  "pillars": [
+    {
+      "id": "private",
+      "name": "Private by architecture",
+      "message": "Your data. Your infrastructure. AI that runs where your data lives, so security clears it.",
+      "proof": [
+        "North runs on-premise, in VPCs, and air-gapped; Cohere never sees customer data in private deployment",
+        "Models are not trained on customer API data (enterprise data commitments)"
+      ]
+    },
+    {
+      "id": "knowledge",
+      "name": "Built for your knowledge",
+      "message": "Retrieval-strong on your own data, multilingual by default: the model layer for what your enterprise already knows.",
+      "proof": [
+        "Command, Embed, and Rerank are purpose-built for enterprise retrieval",
+        "Recognized analyst strength in enterprise RAG and multilingual retrieval"
+      ]
+    },
+    {
+      "id": "sovereign",
+      "name": "Sovereign by partnership",
+      "message": "In-country AI on sovereign infrastructure, with the partnerships to prove it.",
+      "proof": [
+        "Government of Canada partnership and sovereign compute investment (2024-2025)",
+        "Bell AI Fabric runs North on Canadian infrastructure ($220M GPU deal, 2026)",
+        "SAP partnership for full-stack sovereign AI; Aleph Alpha merger extends the DACH footprint (2026)"
+      ]
+    }
+  ],
+  "matrix": [
+    { "pillar": "private", "function": "marketing", "moment": "awareness", "audience": "AI lead (champion)", "message": "The AI you are actually allowed to deploy. If legal will not let your use case near a public API, that is not a blocker; that is who we build for." },
+    { "pillar": "private", "function": "sales", "moment": "evaluation", "audience": "CISO and economic buyer", "message": "Run the security review first, not last. Private deployment means the data never leaves your environment, and we would rather prove that in week one than negotiate it at the end." },
+    { "pillar": "private", "function": "product", "moment": "activation", "audience": "ML platform lead", "message": "Deployment is the product: on-prem, VPC, or air-gapped, with reference architectures your infrastructure team can hold us to." },
+    { "pillar": "private", "function": "customer-success", "moment": "expansion", "audience": "champion and compliance", "message": "Every new use case inherits the same guarantee: the data stayed home. Expansion is a permissions conversation, not a new risk review." },
+    { "pillar": "knowledge", "function": "marketing", "moment": "awareness", "audience": "AI lead (champion)", "message": "Your enterprise already knows the answers. The model layer's job is to retrieve them: your documents, your languages, your systems." },
+    { "pillar": "knowledge", "function": "sales", "moment": "evaluation", "audience": "developers and technical buyer", "message": "Benchmark it on your own corpus, not a leaderboard. Retrieval on your data is the test we ask to be judged on." },
+    { "pillar": "knowledge", "function": "product", "moment": "activation", "audience": "developers", "message": "Embed, Rerank, and Command ship as a retrieval stack, not a chat demo: built to ground answers in your knowledge from day one." },
+    { "pillar": "knowledge", "function": "customer-success", "moment": "expansion", "audience": "champion", "message": "Each connected knowledge source compounds the last. The road map is your corpus, one system at a time." },
+    { "pillar": "sovereign", "function": "marketing", "moment": "awareness", "audience": "public sector and regulated executives", "message": "Sovereign AI is not a talking point here. It is deployed: in-country infrastructure, national partnerships, models that stay inside the border." },
+    { "pillar": "sovereign", "function": "sales", "moment": "evaluation", "audience": "economic buyer (CIO/CDO)", "message": "The hyperscaler you already pay is a region promise. Sovereignty is an architecture: in-country infrastructure, a partner ecosystem, and a vendor that never touches the data." },
+    { "pillar": "sovereign", "function": "product", "moment": "activation", "audience": "ML platform lead", "message": "Runs on sovereign partner infrastructure as a first-class deployment target, not a special build." },
+    { "pillar": "sovereign", "function": "customer-success", "moment": "expansion", "audience": "champion and executive sponsor", "message": "The sovereignty story is renewable: every audit passed and every in-country deployment is proof the next agency or subsidiary can cite." }
+  ],
+  "when_we_win": [
+    "A GenAI mandate collides with a hard data constraint (regulated sector, sovereignty, in-country requirements)",
+    "A public-API pilot stalled at security review and the champion needs a path that clears the gate",
+    "Retrieval on internal knowledge is the core use case, especially multilingual",
+    "A sovereign or in-country deployment needs a model layer with partnership precedent"
+  ],
+  "when_we_lose": [
+    "The buyer is comfortable on public APIs with no data constraint: they default to OpenAI or Anthropic and we should not chase it",
+    "They want one general-purpose primary model for frontier reasoning and coding: that comparison is a loss by design",
+    "Consumer, SMB, or individual developers: wrong scale and motion",
+    "Heavily Azure-committed shops where the incumbent's residency promise passes their review: the falsifier in miniature"
+  ],
+  "objections": [
+    {
+      "objection": "Why not just use the hyperscaler we already pay?",
+      "from": "Economic buyer (CIO/CDO/CFO)",
+      "response": "A region promise is not an architecture. If a region checkbox passes your security review, use it. If your review needs the data to never leave your environment and a vendor that cannot see it, that is the difference between a setting and a design, and it is the difference we build.",
+      "pillar": "private"
+    },
+    {
+      "objection": "Is a specialist good enough against OpenAI and Anthropic?",
+      "from": "Champion, under pressure from the committee",
+      "response": "On general benchmarks the frontier models cluster; that race is not the purchase. On your corpus, in your languages, inside your environment, the test is retrieval and deployment, and that is the test we ask to be judged on.",
+      "pillar": "knowledge"
+    },
+    {
+      "objection": "On-prem and air-gapped deployments are complex.",
+      "from": "Technical buyer (CTO / ML platform)",
+      "response": "They are, which is why deployment is the product and not an afterthought: reference architectures, partner infrastructure, and a deployment path your team can hold us to before contract.",
+      "pillar": "private"
+    },
+    {
+      "objection": "Prove the data is truly private and in-country.",
+      "from": "Security / compliance (the structural veto)",
+      "response": "In private deployment Cohere never sees or interacts with your data; models are not trained on customer data; sovereign partner infrastructure keeps it in-country. We put this review first because it is the sale.",
+      "pillar": "sovereign"
+    }
+  ],
+  "pressure_test": [
+    "Weakest pillar: sovereign-by-partnership rests on a small number of flagship partnerships; if they stay exceptional rather than repeatable, the pillar is a case study, not a message.",
+    "The falsifier is live: track security-review outcomes against Azure OpenAI and Bedrock quarterly; if their residency guarantees clear reviews at high rates, reposition private deployment as the wedge within a multi-vendor frame.",
+    "The specialist honesty holds: message the strong second vendor in a router pattern, never the rip-and-replace primary; test whether 'the AI you are allowed to deploy' outperforms capability-led messaging in regulated-segment campaigns."
+  ]
+}
