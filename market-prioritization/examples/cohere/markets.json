@@ -1,0 +1,136 @@
+{
+  "generated": "2026-07-21",
+  "brand": "Cohere",
+  "constraint": "Two markets can carry dedicated GTM capacity over the next four quarters; the rest get coverage at best.",
+  "icp_source": "icp-research/examples/cohere/icp.md",
+  "criteria": [
+    {
+      "id": "buying_readiness",
+      "family": "access",
+      "weight": 25,
+      "inverted": false,
+      "rationale": "The constraint is four quarters, so a market with live mandates and budget beats a larger market that is still forming an opinion."
+    },
+    {
+      "id": "icp_match",
+      "family": "fit",
+      "weight": 20,
+      "inverted": false,
+      "rationale": "The ICP is unusually sharp (a data constraint plus a security veto), and markets that do not have that constraint default to the hyperscaler no matter what we do."
+    },
+    {
+      "id": "channel_access",
+      "family": "access",
+      "weight": 20,
+      "inverted": false,
+      "rationale": "This ICP buys through analysts, partners, and procurement, so an existing route in is worth more than it would be in a self-serve motion."
+    },
+    {
+      "id": "competitive_position",
+      "family": "access",
+      "weight": 15,
+      "inverted": false,
+      "rationale": "Weighted below readiness because the specialist position is only defensible where the gate exists; where it does not, position is irrelevant."
+    },
+    {
+      "id": "deal_size",
+      "family": "economics",
+      "weight": 10,
+      "inverted": false,
+      "rationale": "Low weight on purpose: nearly every market on this slate is enterprise-sized, so it barely discriminates."
+    },
+    {
+      "id": "regulatory_risk",
+      "family": "risk",
+      "weight": 10,
+      "inverted": true,
+      "rationale": "Inverted, and modest, because regulation usually creates our demand rather than blocking it; it only matters where a regime is one we cannot yet meet."
+    }
+  ],
+  "knockouts": [
+    {
+      "id": "channel_locked",
+      "desc": "Market entry controlled by an exclusive competitor arrangement"
+    }
+  ],
+  "markets": [
+    {
+      "name": "Canadian public sector",
+      "scores": { "buying_readiness": 5, "icp_match": 5, "channel_access": 5, "competitive_position": 5, "deal_size": 4, "regulatory_risk": 4 },
+      "evidence": [
+        { "criterion": "channel_access", "value": "Federal partnership agreement on public-service AI, plus up to $240M sovereign compute investment", "source": "https://www.canada.ca/en/innovation-science-economic-development/news/2025/08/canada-partners-with-cohere-to-accelerate-world-leading-artificial-intelligence.html", "date": "2025-08" },
+        { "criterion": "icp_match", "value": "Sovereignty and in-country data requirements are structural, not preferences", "source": "icp-research/examples/cohere/icp.md", "date": "2026-07-21" }
+      ],
+      "knockouts_hit": [],
+      "notes": "The existing federal relationship is coverage, not saturation: provinces, agencies, and crown corporations are largely unworked."
+    },
+    {
+      "name": "Canadian financial services",
+      "scores": { "buying_readiness": 5, "icp_match": 5, "channel_access": 4, "competitive_position": 3, "deal_size": 5, "regulatory_risk": 4 },
+      "evidence": [
+        { "criterion": "buying_readiness", "value": "Every Big Five bank has a public GenAI program; CIBC platform enterprise-wide, TD targeting $1B AI value, Manulife GenAI to 100 percent of staff", "source": "account-sourcing/examples/cohere/account-list.md", "date": "2026-07-21" },
+        { "criterion": "competitive_position", "value": "Strong in-house AI capability at several banks (Layer 6 at TD) and hyperscaler incumbency", "source": "https://thefinancialbrand.com/news/banking-technology/td-bank-ai-genai-agentic-195829", "date": "2026-01" }
+      ],
+      "knockouts_hit": [],
+      "notes": "The sourcing run found eight qualified accounts here, the densest segment on the slate."
+    },
+    {
+      "name": "Sovereign telecom partnerships",
+      "scores": { "buying_readiness": 5, "icp_match": 3, "channel_access": 5, "competitive_position": 4, "deal_size": 5, "regulatory_risk": 4 },
+      "evidence": [
+        { "criterion": "channel_access", "value": "Bell AI Fabric runs North on Canadian infrastructure; TELUS, Swisscom, and Telefonica are building sovereign AI factories", "source": "account-sourcing/examples/cohere/account-list.md", "date": "2026-07-21" },
+        { "criterion": "icp_match", "value": "Partner motion rather than end-customer motion: the ICP describes their customers, not them", "source": "icp-research/examples/cohere/icp.md", "date": "2026-07-21" }
+      ],
+      "knockouts_hit": [],
+      "notes": "Distribution rather than direct revenue; scores high on access precisely because it is a channel play."
+    },
+    {
+      "name": "DACH regulated enterprise",
+      "scores": { "buying_readiness": 4, "icp_match": 5, "channel_access": 4, "competitive_position": 4, "deal_size": 4, "regulatory_risk": 3 },
+      "evidence": [
+        { "criterion": "channel_access", "value": "Aleph Alpha merger provides a German footprint; SAP partnership for full-stack sovereign AI", "source": "icp-research/examples/cohere/input.md", "date": "2026-07-21" },
+        { "criterion": "icp_match", "value": "EU data-sovereignty requirements are among the strictest in the world", "source": "https://wolyra.ai/enterprise-llm-selection-framework-2026/", "date": "2026-07-21" }
+      ],
+      "knockouts_hit": [],
+      "notes": "The merger makes this newly enterable; timing is the argument for going now rather than later."
+    },
+    {
+      "name": "Canadian healthcare and insurance",
+      "scores": { "buying_readiness": 3, "icp_match": 5, "channel_access": 3, "competitive_position": 4, "deal_size": 4, "regulatory_risk": 3 },
+      "evidence": [
+        { "criterion": "buying_readiness", "value": "Insurer programs are live (Manulife, Intact); provider-side health systems are earlier and slower", "source": "account-sourcing/examples/cohere/account-list.md", "date": "2026-07-21" },
+        { "criterion": "regulatory_risk", "value": "Health data regimes are strict and vary by province", "source": "icp-research/examples/cohere/icp.md", "date": "2026-07-21" }
+      ],
+      "knockouts_hit": [],
+      "notes": "Perfect ICP fit, slower clock. The insurance half is already being worked inside financial services."
+    },
+    {
+      "name": "US regulated enterprise",
+      "scores": { "buying_readiness": 4, "icp_match": 3, "channel_access": 2, "competitive_position": 2, "deal_size": 5, "regulatory_risk": 4 },
+      "evidence": [
+        { "criterion": "competitive_position", "value": "Azure OpenAI and Bedrock incumbency is strongest here, and their residency guarantees clear many US reviews", "source": "https://wolyra.ai/enterprise-llm-selection-framework-2026/", "date": "2026-07-21" },
+        { "criterion": "channel_access", "value": "No sovereign-partner equivalent to the Bell or federal relationships", "source": "icp-research/examples/cohere/icp.md", "date": "2026-07-21" }
+      ],
+      "knockouts_hit": [],
+      "notes": "The biggest market and the worst fit for the wedge: this is where the category bet's falsifier lives."
+    },
+    {
+      "name": "Mid-market SaaS",
+      "scores": { "buying_readiness": 3, "icp_match": 1, "channel_access": 2, "competitive_position": 1, "deal_size": 2, "regulatory_risk": 5 },
+      "evidence": [
+        { "criterion": "icp_match", "value": "ICP disqualifier: comfortable on public APIs with no data constraint, so they default to OpenAI or Anthropic", "source": "icp-research/examples/cohere/icp.md", "date": "2026-07-21" }
+      ],
+      "knockouts_hit": [],
+      "notes": "On the slate deliberately, to make the disqualifier visible in the ranking rather than assumed."
+    },
+    {
+      "name": "Japan enterprise",
+      "scores": { "buying_readiness": 5, "icp_match": 4, "channel_access": 1, "competitive_position": 1, "deal_size": 4, "regulatory_risk": 4 },
+      "evidence": [
+        { "criterion": "channel_access", "value": "SoftBank and OpenAI launched SB OAI Japan, a 50-50 joint venture selling enterprise AI exclusively in Japan", "source": "https://www.softbank.jp/en/corp/news/press/sbkk/2025/20251105_02/", "date": "2025-11-05" }
+      ],
+      "knockouts_hit": ["channel_locked"],
+      "notes": "Sovereignty demand is real and the market is ready, but the dominant channel is contracted to a competitor. Kept visible so the decision is explicit."
+    }
+  ]
+}

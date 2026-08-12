@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "Canadian public sector": 96.0,
+    "Canadian financial services": 88.0,
+    "Sovereign telecom partnerships": 87.0,
+    "DACH regulated enterprise": 82.0,
+    "Canadian healthcare and insurance": 73.0,
+    "US regulated enterprise": 64.0,
+    "Mid-market SaaS": 44.0
+  },
+  "ranking": [
+    "Canadian public sector",
+    "Canadian financial services",
+    "Sovereign telecom partnerships",
+    "DACH regulated enterprise",
+    "Canadian healthcare and insurance",
+    "US regulated enterprise",
+    "Mid-market SaaS"
+  ],
+  "contested": {
+    "DACH regulated enterprise": [
+      "Sovereign telecom partnerships"
+    ],
+    "Sovereign telecom partnerships": [
+      "Canadian financial services",
+      "DACH regulated enterprise"
+    ],
+    "Canadian financial services": [
+      "Sovereign telecom partnerships"
+    ]
+  },
+  "decisive_criteria": {
+    "DACH regulated enterprise vs Sovereign telecom partnerships": [
+      "icp_match"
+    ],
+    "Canadian financial services vs Sovereign telecom partnerships": [
+      "channel_access",
+      "competitive_position",
+      "icp_match"
+    ]
+  },
+  "knocked_out": [
+    "Japan enterprise"
+  ],
+  "delta": 10.0
+}
