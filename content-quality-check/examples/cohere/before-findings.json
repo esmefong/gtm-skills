@@ -1,0 +1,148 @@
+{
+  "verdict": "REVISE",
+  "counts": {
+    "HIGH": 8,
+    "MEDIUM": 14,
+    "LOW": 1
+  },
+  "findings": [
+    {
+      "severity": "HIGH",
+      "line": 3,
+      "code": "rhetorical-opener",
+      "msg": "opener asks the reader a question: open with a claim instead"
+    },
+    {
+      "severity": "HIGH",
+      "line": 6,
+      "code": "reframe",
+      "msg": "the 'not just X, it's Y' construction: make one specific claim instead"
+    },
+    {
+      "severity": "HIGH",
+      "line": 6,
+      "code": "announcement-cliche",
+      "msg": "'thrilled to announce' family: the most template opener there is"
+    },
+    {
+      "severity": "HIGH",
+      "line": 6,
+      "code": "brand-avoid",
+      "msg": "brand Avoid-list word 'game-changing'"
+    },
+    {
+      "severity": "HIGH",
+      "line": 6,
+      "code": "emdash-chain",
+      "msg": "3 em dashes in one paragraph: restructure with periods"
+    },
+    {
+      "severity": "HIGH",
+      "line": 7,
+      "code": "brand-avoid",
+      "msg": "brand Avoid-list word 'cutting-edge'"
+    },
+    {
+      "severity": "HIGH",
+      "line": 10,
+      "code": "generated-opener",
+      "msg": "'let's dive in' family: telegraphs a generated answer"
+    },
+    {
+      "severity": "HIGH",
+      "line": 10,
+      "code": "brand-avoid",
+      "msg": "brand Avoid-list word 'revolutionary'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 0,
+      "code": "intensifier-density",
+      "msg": "2 empty intensifiers in 145 words (cap: 1 per 200)"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 3,
+      "code": "stage-setting",
+      "msg": "hollow hedge \"in today's rapidly evolving\": cut, or replace with the point"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 3,
+      "code": "llm-word",
+      "msg": "over-represented word 'unlock'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 6,
+      "code": "llm-word",
+      "msg": "over-represented word 'game-changing'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 7,
+      "code": "llm-word",
+      "msg": "over-represented word 'seamless'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 7,
+      "code": "llm-word",
+      "msg": "over-represented word 'robust'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 7,
+      "code": "llm-word",
+      "msg": "over-represented word 'cutting-edge'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 11,
+      "code": "stage-setting",
+      "msg": "hollow hedge 'navigating the complexities of': cut, or replace with the point"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 11,
+      "code": "llm-word",
+      "msg": "over-represented word 'leverage'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 11,
+      "code": "llm-word",
+      "msg": "over-represented word 'transformative'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 15,
+      "code": "llm-word",
+      "msg": "over-represented word 'harness'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 17,
+      "code": "llm-word",
+      "msg": "over-represented word 'testament'"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 17,
+      "code": "weak-closer",
+      "msg": "closer formula 'in conclusion': end forward, not with a recap"
+    },
+    {
+      "severity": "MEDIUM",
+      "line": 17,
+      "code": "weak-closer",
+      "msg": "closer formula 'is here': end forward, not with a recap"
+    },
+    {
+      "severity": "LOW",
+      "line": 17,
+      "code": "hype-close",
+      "msg": "exclamation in the final line: the flat close lands harder"
+    }
+  ]
+}
