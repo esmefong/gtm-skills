@@ -26,11 +26,11 @@ Retrieval-strong on your own data, multilingual by default: the model layer for 
 
 ### Sovereign by partnership
 
-In-country AI on sovereign infrastructure, with the partnerships to prove it.
+AI that stays inside your borders: in-country infrastructure on sovereign partnerships, so the residency question is settled by architecture.
 
-- Government of Canada partnership and sovereign compute investment (2024-2025)
-- Bell AI Fabric runs North on Canadian infrastructure ($220M GPU deal, 2026)
-- SAP partnership for full-stack sovereign AI; Aleph Alpha merger extends the DACH footprint (2026)
+- Government of Canada partnership on public-service AI (canada.ca, 2025-08) and up to $240M sovereign compute investment (Dept. of Finance, 2024-12)
+- Bell AI Fabric runs North on Canadian infrastructure; $220M sovereign GPU deal (CBC News / TechTimes, 2026-06)
+- Aleph Alpha merger extends the DACH footprint (Open Canada, 2026); SAP partnership for sovereign AI (reported 2026)
 
 ## When we win
 
@@ -54,3 +54,12 @@ In-country AI on sovereign infrastructure, with the partnerships to prove it.
 | Is a specialist good enough against OpenAI and Anthropic? | Champion, under pressure from the committee | On general benchmarks the frontier models cluster; that race is not the purchase. On your corpus, in your languages, inside your environment, the test is retrieval and deployment, and that is the test we ask to be judged on. |
 | On-prem and air-gapped deployments are complex. | Technical buyer (CTO / ML platform) | They are, which is why deployment is the product and not an afterthought: reference architectures, partner infrastructure, and a deployment path your team can hold us to before contract. |
 | Prove the data is truly private and in-country. | Security / compliance (the structural veto) | In private deployment Cohere never sees or interacts with your data; models are not trained on customer data; sovereign partner infrastructure keeps it in-country. We put this review first because it is the sale. |
+
+## Sources for the hard figures
+
+- Canada partners with Cohere (2025-08): https://www.canada.ca/en/innovation-science-economic-development/news/2025/08/canada-partners-with-cohere-to-accelerate-world-leading-artificial-intelligence.html
+- Up to $240M for Cohere under the Sovereign AI Compute Strategy (2024-12): https://www.canada.ca/en/department-finance/news/2024/12/deputy-prime-minister-announces-240-million-for-cohere-to-scale-up-ai-compute-capacity.html
+- Bell and Cohere sovereign AI deal (2026): https://www.cbc.ca/news/business/bell-cohere-ai-infrastructure-deal-9.7240577
+- $220M Bell-Cohere GPU deal detail (2026-06): https://www.techtimes.com/articles/318753/20260620/canada-sovereign-ai-220m-bell-cohere-deal-puts-grace-blackwell-canadian-soil.htm
+- Cohere and Aleph Alpha merger (2026-04): https://opencanada.org/what-does-the-coheres-merger-mean-for-canadas-digital-and-economic-sovereignty/
+- North private deployment (2025-08): https://techcrunch.com/2025/08/06/coheres-new-ai-agent-platform-north-promises-to-keep-enterprise-data-secure/

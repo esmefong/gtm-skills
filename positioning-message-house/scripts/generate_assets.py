@@ -43,6 +43,9 @@ def battlecard(h):
     for o in h.get("objections", []):
         lines.append(f"| {o.get('objection', '')} | {o.get('from', '')} | "
                      f"{o.get('response', '')} |")
+    if h.get("sources"):
+        lines += ["", "## Sources for the hard figures", ""]
+        lines += [f"- {src}" for src in h["sources"]]
     lines.append("")
     return "\n".join(lines)
 

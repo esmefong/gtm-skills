@@ -12,7 +12,7 @@ knockouts, and then runs **sensitivity analysis**: each weight is perturbed and 
 recomputed, so every market comes back labeled robust or contested, and every contested pair comes
 back with the one criterion that decides it.
 
-It is opinionated about one thing: **the weights are the strategy, and a ranking that flips under a
+Its core claim: **the weights are the strategy, and a ranking that flips under a
 small, reasonable change in weights is not a decision, it is a preference.**
 
 The output ends with the section leadership actually needs: the deprioritized markets, the reason

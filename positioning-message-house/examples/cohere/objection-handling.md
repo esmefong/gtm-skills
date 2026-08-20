@@ -32,4 +32,4 @@ They are, which is why deployment is the product and not an afterthought: refere
 
 In private deployment Cohere never sees or interacts with your data; models are not trained on customer data; sovereign partner infrastructure keeps it in-country. We put this review first because it is the sale.
 
-**Stands on:** Sovereign by partnership (In-country AI on sovereign infrastructure, with the partnerships to prove it.)
+**Stands on:** Private by architecture (Your data. Your infrastructure. AI that runs where your data lives, so security clears it.)

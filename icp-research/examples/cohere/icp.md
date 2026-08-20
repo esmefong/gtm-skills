@@ -13,6 +13,8 @@ Who Cohere is for. Anchor product, positioning, and go-to-market to these.
 
 **Data sources:** Cohere site, TechCrunch/eMarketer/IntuitionLabs, Sacra, and 2026 enterprise-LLM
 selection frameworks (July 2026). **Confidence:** directional; skews to analyst/press framing.
+**Quote hygiene:** italicized buyer lines below are representative composites of public buying
+discourse, labeled inline; none is a verbatim quote.
 
 ---
 
@@ -48,11 +50,11 @@ use case, but the data is sensitive, regulated, or must stay in-country. They ar
 holder, and they cannot ship anything security and legal won't clear.
 
 ### The trigger (why now)
-- **A GenAI mandate meets a use case public APIs can't touch.** *"Legal won't let us run this on a
-  public API."* Leadership wants GenAI shipped; the data can't leave the environment. (Source D)
+- **A GenAI mandate meets a use case public APIs can't touch.** Representative composite: *"Legal
+  won't let us run this on a public API."* Leadership wants GenAI shipped; the data can't leave the environment. (Source D)
 - **A pilot stalls at security review.** A promising OpenAI/Azure pilot fails compliance or data-
   governance sign-off. (Source D)
-- **A data-residency / sovereignty requirement.** *"Data must stay in-country."* Government, finance,
+- **A data-residency / sovereignty requirement.** Representative composite: *"Data must stay in-country."* Government, finance,
   or a non-US market forces on-prem or regional deployment. (Source A/B)
 
 ### What they're doing before they find us
@@ -70,7 +72,8 @@ the hyperscaler already in their stack (Azure OpenAI, Bedrock); or blocked and w
   the perception risk is real. (Source B/C)
 - **Anxiety: deployment complexity.** On-prem / air-gapped / VPC is harder than calling a hosted API.
 - **Habit: default to the incumbent hyperscaler.** Azure OpenAI and Bedrock also offer data residency
-  and are already in the stack: *"nobody got fired for buying Microsoft."* (Source C) This is the
+  and are already in the stack, the industry's old saw that nobody got fired for buying
+  Microsoft. (Source C) This is the
   single biggest force to overcome.
 - **Push + Pull** (the data constraint plus private deployment and RAG fit) beat these only once
   security/compliance is convinced the private-deployment story is real.

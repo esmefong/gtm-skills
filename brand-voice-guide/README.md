@@ -11,7 +11,7 @@ directory**: `voice-core.md` (tonal pillars, each anchored to a verbatim sample)
 per-channel files, and `real-examples.md`. It harvests everything it can from the samples first, then
 interviews you only to fill the gaps.
 
-It's opinionated about one thing: **a voice guide is extracted from real writing, not invented from
+The premise: **a voice guide is extracted from real writing, not invented from
 adjectives.** "Bold, human, authentic" describes nothing; a line the brand actually wrote, and a rule
 named from it, describes everything.
 
@@ -53,4 +53,4 @@ see the skill capturing what's actually distinctive.
 ## Composes with
 
 - [`icp-research`](../icp-research/): drop its output in as the `icp.md` context file.
-- `content-quality-check` (planned): the enforcement side that checks drafts against this guide.
+- `content-quality-check`: the enforcement side that checks drafts against this guide.

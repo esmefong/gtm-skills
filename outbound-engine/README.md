@@ -23,7 +23,7 @@ voice directory from [`brand-voice-guide`](../brand-voice-guide/), then:
    list ("congrats on the", "just following up"), and the brand's own Avoid words, read straight
    from the voice guide.
 
-It is opinionated about one thing: **the scarce asset in outbound is trust, and the engine
+The stance underneath: **the scarce asset in outbound is trust, and the engine
 protects it by refusing weak sends.** The refusal is a first-class deliverable.
 
 ## What it does NOT do

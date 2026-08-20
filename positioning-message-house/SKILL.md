@@ -16,7 +16,7 @@ description: >
 
 Turn positioning into an operating system for messaging: one category bet everyone stands on, a
 small set of pillar messages, and a matrix that translates them into each function's language at
-their moment in the buyer's journey. This skill is opinionated about one thing: **consistency
+their moment in the buyer's journey. The whole design enforces one principle: **consistency
 comes from everyone standing on the same messages; specificity comes from translation, not from
 four teams inventing four stories.**
 

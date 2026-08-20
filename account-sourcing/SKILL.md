@@ -17,8 +17,8 @@ description: >
 # Account Sourcing
 
 Turn an ICP from a strategy document into pipeline: a ranked list of real accounts worth pursuing,
-each with public evidence for why, and a visible reject pile. This skill is opinionated about one
-thing: **an account belongs on the list only if you can point to the evidence, and a list that shows
+each with public evidence for why, and a visible reject pile. Two rules govern everything here:
+**an account belongs on the list only if you can point to the evidence, and a list that shows
 no rejects is hiding its judgment.**
 
 The first deliverable companies expect from go-to-market engineering is exactly this: the target
@@ -132,9 +132,9 @@ checks are deterministic work that should be repeatable and auditable.
 
 - **icp-research** (upstream): its account-level ICP section is this skill's query spec, and its
   buying committee supplies the entry role per account.
-- **outbound-engine** (downstream, planned): consumes the qualified accounts and their signals to
+- **outbound-engine** (downstream): consumes the qualified accounts and their signals to
   draft committee-aware, voice-matched outreach.
-- **market-prioritization** (sibling, planned): ranks markets and segments; this skill ranks accounts
+- **market-prioritization** (sibling): ranks markets and segments; this skill ranks accounts
   within them.
 
 ## Failure modes to avoid (the quality bar)

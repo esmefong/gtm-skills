@@ -15,7 +15,7 @@ description: >
 # Outbound Engine
 
 Turn a qualified account with a live signal into outreach worth sending, in the brand's own voice,
-with every load-bearing line traceable to its source. This skill is opinionated about one thing:
+with every load-bearing line traceable to its source. One conviction sits under every phase:
 **the scarce asset in outbound is trust, and the engine protects it by refusing weak sends.** A
 "do not send, here is why" verdict is a first-class deliverable, not a failure.
 

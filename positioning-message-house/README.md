@@ -18,7 +18,7 @@ barriers) and the voice from [`brand-voice-guide`](../brand-voice-guide/), then 
    objection-handling doc from the structured house, so downstream assets cannot drift from the
    positioning.
 
-It is opinionated about one thing: **consistency comes from everyone standing on the same
+The principle underneath: **consistency comes from everyone standing on the same
 messages; specificity comes from translation, not from four teams inventing four stories.**
 
 ## What it does NOT do

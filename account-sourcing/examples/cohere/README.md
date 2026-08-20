@@ -49,7 +49,7 @@ The full pipeline on one company, end to end, with the judgment visible:
 
 ```
 python3 ../../scripts/score_accounts.py accounts.json rubric.yaml --table
-python3 ../../scripts/render_briefing.py accounts.json -o briefing.html --company "Cohere" --accent "#39594D"
+python3 ../../scripts/render_briefing.py accounts.json -o briefing.html --company "Cohere" --accent "#39594D" --prepared-by "Esme Fong (esmefong.com)"
 ```
 
 The scoring is deterministic: same inputs, same ranking, every run. The evidence gathering behind

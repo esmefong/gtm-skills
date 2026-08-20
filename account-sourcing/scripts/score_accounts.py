@@ -95,14 +95,42 @@ def load_rubric(path):
     except ImportError:
         pass
     lns = []
-    for raw in text.splitlines():
+    for lineno, raw in enumerate(text.splitlines(), 1):
+        if "\t" in raw:
+            raise SystemExit(f"rubric line {lineno}: tabs are not supported; indent with spaces")
         if raw.lstrip().startswith("#") or not raw.strip():
             continue
+        # strip inline comments (a # preceded by whitespace, outside quotes)
+        hash_at = raw.find(" #")
+        if hash_at != -1 and raw[:hash_at].count('"') % 2 == 0:
+            raw = raw[:hash_at]
+            if not raw.strip():
+                continue
         lns.append((len(raw) - len(raw.lstrip(" ")), raw.strip()))
     obj, i = _parse_block(lns, 0, 0)
     if i != len(lns):
-        raise ValueError(f"rubric parse stopped at line entry {i}; check indentation")
+        raise SystemExit(f"rubric parse stopped at line entry {i}; check indentation")
+    _validate_rubric_shape(obj)
     return obj
+
+
+def _validate_rubric_shape(rubric):
+    problems = []
+    if not isinstance(rubric.get("weights"), dict) or not rubric.get("weights"):
+        problems.append("missing or empty 'weights' mapping")
+    if not isinstance(rubric.get("criteria"), dict) or not rubric.get("criteria"):
+        problems.append("missing or empty 'criteria' mapping")
+    if not isinstance(rubric.get("tiers"), dict):
+        problems.append("missing 'tiers' mapping")
+    for cat, crits in (rubric.get("criteria") or {}).items():
+        if not isinstance(crits, list):
+            problems.append(f"criteria.{cat} is not a list")
+            continue
+        for c in crits:
+            if not isinstance(c, dict) or "id" not in c or not isinstance(c.get("points"), (int, float)):
+                problems.append(f"criteria.{cat} entry missing id or numeric points: {c!r}")
+    if problems:
+        raise SystemExit("rubric is invalid:\n  - " + "\n  - ".join(problems))
 
 
 # ---------- scoring ----------

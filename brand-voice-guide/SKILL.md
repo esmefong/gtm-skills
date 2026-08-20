@@ -16,8 +16,8 @@ description: >
 # Brand Voice Guide
 
 Extract how a brand actually sounds from what it has actually written, and turn it into a directory
-that a copywriter, a new hire, or a Claude agent can produce on-brand content from. This skill is
-opinionated about one thing: **a voice guide is extracted from real writing, not invented from
+that a copywriter, a new hire, or a Claude agent can produce on-brand content from. One conviction
+drives it: **a voice guide is extracted from real writing, not invented from
 adjectives.** "We're bold, human, and authentic" describes nothing. A verbatim line the brand wrote,
 and a rule named from it, describes everything.
 
@@ -151,7 +151,7 @@ one home for "don't": the Avoid section of `writing-standard.md` (no separate an
 ## Composes with other skills
 
 - **icp-research** — if it's been run, use its output as `icp.md` instead of re-gathering. Cross-link.
-- **content-quality-check** (planned) — the enforcement side. This skill's `voice-core.md` and the
+- **content-quality-check** — the enforcement side. This skill's `voice-core.md` and the
   Avoid section of `writing-standard.md` are what it checks drafts against.
 
 ## Failure modes to avoid (the quality bar)

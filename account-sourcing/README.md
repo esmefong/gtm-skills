@@ -11,7 +11,7 @@ criterion to a public source that can answer it, build the account universe, enr
 evidence (value, source, date per fact), visibly disqualify, tag dated why-now signals, and route
 every account to an owning team with a specific next action.
 
-It is opinionated about two things: **an account belongs on the list only if you can point to the
+It holds two rules: **an account belongs on the list only if you can point to the
 evidence, and a list that shows no rejects is hiding its judgment.**
 
 Three runnable, key-free scripts ship with it:
@@ -65,5 +65,5 @@ python3 scripts/render_briefing.py accounts.json --company "Acme" --accent "#2f5
 
 - [`icp-research`](../icp-research/): its account-level ICP is this skill's query spec, and its
   buying committee supplies the entry role per account.
-- `outbound-engine` (planned): consumes the qualified accounts and their signals to draft
+- `outbound-engine`: consumes the qualified accounts and their signals to draft
   committee-aware, voice-matched outreach with [`brand-voice-guide`](../brand-voice-guide/).

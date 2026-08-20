@@ -16,7 +16,7 @@ description: >
 
 # Content Quality Check
 
-The QA gate a draft passes before it publishes. This skill is opinionated about one thing:
+The QA gate a draft passes before it publishes. It exists because of one fact:
 **readers now pattern-match AI tells in seconds, and every tell that ships spends the brand's
 credibility.** The check exists to catch what the writer can no longer see in their own draft.
 

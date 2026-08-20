@@ -16,7 +16,7 @@ description: >
 
 Turn "we could go after all of these" into a defensible short list: markets ranked against weighted
 criteria, every score evidenced, and an honest statement of which rankings are robust and which are
-coin flips. This skill is opinionated about one thing: **the weights are the strategy, and a
+coin flips. Its core claim: **the weights are the strategy, and a
 ranking that flips under a small, reasonable change in weights is not a decision, it is a
 preference.**
 

@@ -29,8 +29,10 @@ against hyperscaler-hosted options in deals that reached security review.
 2. **Built for your knowledge.** Retrieval-strong on your own data, multilingual by default: the
    model layer for what your enterprise already knows. *(Command, Embed, Rerank as a retrieval
    stack; analyst-recognized RAG strength.)*
-3. **Sovereign by partnership.** In-country AI on sovereign infrastructure, with the partnerships
-   to prove it. *(Government of Canada, Bell AI Fabric, SAP, Aleph Alpha.)*
+3. **Sovereign by partnership.** AI that stays inside your borders: in-country infrastructure on
+   sovereign partnerships, so the residency question is settled by architecture. *(Government of
+   Canada, Bell AI Fabric, Aleph Alpha, SAP; the hard figures carry citations in `house.json` and
+   the generated battlecard.)*
 
 ## The matrix
 
