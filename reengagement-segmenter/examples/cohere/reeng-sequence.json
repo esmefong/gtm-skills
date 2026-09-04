@@ -1,0 +1,79 @@
+{
+  "brand": "Cohere",
+  "account": "stalled-gate segment (fictional pipeline)",
+  "motion": "enterprise-abm",
+  "target_role": "Head of AI platform / VP data and analytics",
+  "signal": {
+    "detail": "North now runs on sovereign Canadian infrastructure: Bell AI Fabric live, $220M GPU deployment on Canadian soil",
+    "source": "https://www.techtimes.com/articles/318753/20260620/canada-sovereign-ai-220m-bell-cohere-deal-puts-grace-blackwell-canadian-soil.htm",
+    "date": "2026-06-20"
+  },
+  "trigger_mapping": "These deals stalled at security review on the in-country question, and the in-country answer is what changed. The reengagement message is the stall gate reopened, nothing else.",
+  "touches": [
+    {
+      "n": 1,
+      "channel": "email",
+      "day": 0,
+      "subject": "The residency answer, now real",
+      "body": "When we last spoke, your security review needed the model to run in-country, and at the time we could not fully answer that. That changed in June. North now runs on sovereign Canadian infrastructure, live on Bell's AI Fabric, and in private deployment your data never leaves your environment. The gate that paused the evaluation is the exact thing that moved. Worth 20 minutes to rerun the residency question against the current architecture?",
+      "ask": "20-minute call to rerun the residency question",
+      "ask_type": "call",
+      "annotations": [
+        {
+          "type": "signal",
+          "ref": "Bell AI Fabric live, techtimes 2026-06-20"
+        },
+        {
+          "type": "icp_trigger",
+          "ref": "data-residency requirement, the ICP's structural veto"
+        },
+        {
+          "type": "rule",
+          "ref": "reengagement opens with the change, never the gap: no apology for silence"
+        },
+        {
+          "type": "voice",
+          "ref": "possessive contrast: your data, your environment"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "channel": "email",
+      "day": 6,
+      "subject": "What your security team can hold us to",
+      "body": "One addition since my last note, for the people who actually decide this: reference architectures for on-premise, VPC, and air-gapped deployment, data commitments in writing, and in-country infrastructure your auditors can point at. If it is easier, I can send the deployment brief directly to your security lead.",
+      "ask": "permission to send the deployment brief to the security lead",
+      "ask_type": "intro",
+      "annotations": [
+        {
+          "type": "icp_committee",
+          "ref": "security holds the structural veto; arm the champion for that room"
+        },
+        {
+          "type": "voice",
+          "ref": "plain over jargon; proof over adjectives"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "channel": "email",
+      "day": 14,
+      "subject": "Either answer helps",
+      "body": "Closing the loop. If the residency requirement is still the bar, it is now one we clear, and the evaluation can restart where it paused. If the file stays closed, that is useful to know too, and I will leave it there.",
+      "ask": "a reply either way",
+      "ask_type": "reply",
+      "annotations": [
+        {
+          "type": "rule",
+          "ref": "flat close, an easy no offered; reengagement caps at three touches"
+        },
+        {
+          "type": "judgment",
+          "ref": "no discount, no urgency theater: the only lever used is the reopened gate"
+        }
+      ]
+    }
+  ]
+}

@@ -69,7 +69,7 @@ to act, which is the judgment most AI GTM tooling skips.
 | [positioning-message-house](positioning-message-house/) | **One falsifiable bet to a message matrix.** Committee-aware translation across GTM functions; generates battlecards and objection docs | Shipped |
 | [market-prioritization](market-prioritization/) | **A market slate to a defensible short list.** Weighted scoring plus sensitivity analysis showing which rankings survive an argument about the weights | Shipped |
 | [content-quality-check](content-quality-check/) | **A draft to a publish or revise verdict.** AI-tell linter plus an editorial pass, enforcing the brand's own Avoid list | Shipped |
-| reengagement-segmenter | Segments a lapsed audience by their actual blocker and drafts a sequence per segment | Planned |
+| [reengagement-segmenter](reengagement-segmenter/) | **A lapsed list to blocker segments.** Exclusions first, evidence-backed blocker per record, conflict flags, one gated motion per segment, and a documented leave-alone lane | Shipped |
 | personalized-content-pipeline | Branded, voice-checked content per customer from a structured brief | Planned |
 | validation-tracker | Weekly operating rhythm: benchmarks and an append-only decision log | Planned |
 

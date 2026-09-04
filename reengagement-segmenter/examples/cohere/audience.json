@@ -1,0 +1,264 @@
+{
+  "generated": "2026-09-04",
+  "brand": "Cohere",
+  "as_of": "2026-09-04",
+  "dormancy_horizon_months": 24,
+  "note": "SYNTHETIC RECORDS. Every counterparty below is fictional; pipeline history is private data, and inventing it about real companies would violate this repo's evidence standard. Contradictions are included on purpose.",
+  "records": [
+    {
+      "account": "Meridian Trust (fictional)",
+      "role": "Head of AI platform",
+      "last_meaningful_activity": "2025-11-14",
+      "lifecycle_reached": "security_review",
+      "stated_reason": "price",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [
+        {
+          "field": "stalled_gate",
+          "value": "Deal paused at security review; residency question unanswered at the time",
+          "source": "internal: opportunity notes",
+          "date": "2025-11"
+        }
+      ],
+      "segment": "conflict",
+      "lane": "reengage-after-resolution",
+      "flags": [
+        "stated reason maps to 'price', evidence to 'stalled-gate': resolve by judgment"
+      ]
+    },
+    {
+      "account": "Caldera Insurance Group (fictional)",
+      "role": "VP data and analytics",
+      "last_meaningful_activity": "2025-08-22",
+      "lifecycle_reached": "security_review",
+      "stated_reason": "security review stalled",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [
+        {
+          "field": "stalled_gate",
+          "value": "CISO required in-country deployment; option did not exist in their region then",
+          "source": "internal: call notes",
+          "date": "2025-08"
+        }
+      ],
+      "segment": "stalled-gate",
+      "lane": "reengage",
+      "flags": []
+    },
+    {
+      "account": "Northgate Provincial Services (fictional)",
+      "role": "Director, digital government",
+      "last_meaningful_activity": "2025-10-03",
+      "lifecycle_reached": "evaluation",
+      "stated_reason": "budget cycle",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [
+        {
+          "field": "timing_deferral",
+          "value": "Fiscal-year freeze; asked to reconnect in the new budget year",
+          "source": "internal: email thread",
+          "date": "2025-10"
+        }
+      ],
+      "segment": "timing",
+      "lane": "reengage",
+      "flags": []
+    },
+    {
+      "account": "Halvard Bank (fictional)",
+      "role": "Head of AI platform",
+      "last_meaningful_activity": "2025-09-18",
+      "lifecycle_reached": "evaluation",
+      "stated_reason": "chose incumbent",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [
+        {
+          "field": "lost_to_incumbent",
+          "value": "Standardized on the hyperscaler already in the stack after its residency pitch",
+          "source": "internal: closed-lost note",
+          "date": "2025-09"
+        }
+      ],
+      "segment": "lost-to-incumbent",
+      "lane": "reengage",
+      "flags": []
+    },
+    {
+      "account": "Quarry Health Systems (fictional)",
+      "role": "ML platform lead",
+      "last_meaningful_activity": "2025-12-09",
+      "lifecycle_reached": "pilot_signed",
+      "stated_reason": "",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [
+        {
+          "field": "never_activated",
+          "value": "Pilot signed; retrieval stack never connected to their document store",
+          "source": "internal: usage events",
+          "date": "2025-12"
+        }
+      ],
+      "segment": "never-activated",
+      "lane": "reengage",
+      "flags": []
+    },
+    {
+      "account": "Tellisview Analytics (fictional)",
+      "role": "Head of data science",
+      "last_meaningful_activity": "2026-01-27",
+      "lifecycle_reached": "evaluation",
+      "stated_reason": "",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [],
+      "segment": "drifted",
+      "lane": "reengage",
+      "flags": []
+    },
+    {
+      "account": "Bruyere Mutual (fictional)",
+      "role": "VP technology",
+      "last_meaningful_activity": "2025-07-30",
+      "lifecycle_reached": "proposal",
+      "stated_reason": "price",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [
+        {
+          "field": "price_objection",
+          "value": "Proposal declined on total cost against a smaller scoped need",
+          "source": "internal: closed-lost note",
+          "date": "2025-07"
+        }
+      ],
+      "segment": "price",
+      "lane": "reengage",
+      "flags": []
+    },
+    {
+      "account": "Osprey Logistics (fictional)",
+      "role": "CTO",
+      "last_meaningful_activity": "2025-06-11",
+      "lifecycle_reached": "deployment",
+      "stated_reason": "support experience",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [
+        {
+          "field": "trust_damage",
+          "value": "Rocky integration rollout; champion left shortly after",
+          "source": "internal: ticket history",
+          "date": "2025-06"
+        }
+      ],
+      "segment": "trust",
+      "lane": "reengage",
+      "flags": []
+    },
+    {
+      "account": "Vantage Credit Union (fictional)",
+      "role": "Head of innovation",
+      "last_meaningful_activity": "2025-05-02",
+      "lifecycle_reached": "evaluation",
+      "stated_reason": "",
+      "unsubscribed": true,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [],
+      "segment": "leave-alone",
+      "lane": "opted out: permanent exit from this motion",
+      "flags": []
+    },
+    {
+      "account": "Corvid Systems (fictional)",
+      "role": "VP engineering",
+      "last_meaningful_activity": "2025-04-15",
+      "lifecycle_reached": "evaluation",
+      "stated_reason": "chose competitor",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": "2027-03-31",
+      "icp_disqualifiers": [],
+      "evidence": [
+        {
+          "field": "lost_to_incumbent",
+          "value": "Multi-year agreement signed with a competing model provider",
+          "source": "internal: closed-lost note",
+          "date": "2025-04"
+        }
+      ],
+      "segment": "leave-alone",
+      "lane": "active competitor contract until 2027-03-31",
+      "flags": []
+    },
+    {
+      "account": "Pinnacle Retail Group (fictional)",
+      "role": "Director of ecommerce",
+      "last_meaningful_activity": "2025-10-20",
+      "lifecycle_reached": "discovery",
+      "stated_reason": "",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [
+        "public_api_comfortable_no_data_constraint"
+      ],
+      "evidence": [],
+      "segment": "leave-alone",
+      "lane": "ICP disqualifier: public_api_comfortable_no_data_constraint",
+      "flags": []
+    },
+    {
+      "account": "Aldergrove Capital (fictional)",
+      "role": "COO",
+      "last_meaningful_activity": "2023-05-16",
+      "lifecycle_reached": "discovery",
+      "stated_reason": "",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [],
+      "segment": "archive",
+      "lane": "beyond dormancy horizon (1207 days)",
+      "flags": []
+    },
+    {
+      "account": "Stellar North Foundation (fictional)",
+      "role": "Head of programs",
+      "last_meaningful_activity": "2026-08-14",
+      "lifecycle_reached": "evaluation",
+      "stated_reason": "",
+      "unsubscribed": false,
+      "complaint": false,
+      "competitor_contract_until": null,
+      "icp_disqualifiers": [],
+      "evidence": [],
+      "segment": "active",
+      "lane": "active 21 days ago: not lapsed",
+      "flags": []
+    }
+  ]
+}

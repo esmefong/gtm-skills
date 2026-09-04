@@ -61,7 +61,17 @@ python3 content-quality-check/scripts/check_content.py \
   --avoid content-quality-check/examples/cohere/cohere-avoid.txt >/dev/null
 ok "content linter clears the revised draft"
 
-# 7. the front door holds itself to the same standard
+# 7. reengagement-segmenter: segmentation regenerates and the sequence clears the gate
+python3 reengagement-segmenter/scripts/segment_audience.py \
+  reengagement-segmenter/examples/cohere/audience.json -o "$tmp/audience.json" >/dev/null
+diff -q "$tmp/audience.json" reengagement-segmenter/examples/cohere/audience.json >/dev/null
+ok "reengagement segmenter regenerates audience.json"
+(cd reengagement-segmenter/examples/cohere && \
+  python3 ../../../outbound-engine/scripts/sequence_gate.py reeng-sequence.json \
+    --as-of 2026-09-04 --avoid cohere-avoid.txt >/dev/null)
+ok "outbound gate passes the reengagement sequence"
+
+# 8. the front door holds itself to the same standard
 python3 content-quality-check/scripts/check_content.py README.md >/dev/null
 ok "README clears the repo's own linter"
 
