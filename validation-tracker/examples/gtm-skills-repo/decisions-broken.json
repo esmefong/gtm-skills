@@ -1,0 +1,60 @@
+{
+  "decisions": [
+    {
+      "id": "D0",
+      "date": "2026-07-08",
+      "decision": "Run each skill's worked example on a different real company",
+      "rationale": "Variety was assumed to show range across industries",
+      "supersedes": null,
+      "revisit": null
+    },
+    {
+      "id": "D1",
+      "date": "2026-07-08",
+      "decision": "Ship skills as complete folders; the owner runs every commit and push",
+      "rationale": "Half-built folders read worse than absent ones, and authorship stays with the human",
+      "supersedes": null,
+      "revisit": null
+    },
+    {
+      "id": "D2",
+      "date": "2026-07-17",
+      "decision": "Reframe the repo around GTM systems rather than content production",
+      "rationale": "Application-tracker analysis: the target roles ask for pipelines, scoring, and automation far more than content output",
+      "supersedes": null,
+      "revisit": "2026-09-01"
+    },
+    {
+      "id": "D3",
+      "date": "2026-07-20",
+      "decision": "Consolidate all worked examples on Cohere; retire Linear, keep Notion as the generality check",
+      "rationale": "Depth on one spine compounds: each skill's example feeds the next; scattered examples prove nothing twice",
+      "supersedes": "D9",
+      "revisit": null
+    },
+    {
+      "id": "D4",
+      "date": "2026-07-21",
+      "decision": "Resequence the roadmap: account-sourcing before outbound-engine",
+      "rationale": "First-90-days research: the target-account list is the first deliverable the role is hired for; sequences without a sourced list build days 61-90 before days 1-30",
+      "supersedes": null,
+      "revisit": null
+    },
+    {
+      "id": "D5",
+      "date": "2026-07-21",
+      "decision": "Raise the shipping cadence to 2-3 skills per week",
+      "rationale": "The pattern was proven at one per week; the remaining skills reuse established machinery",
+      "supersedes": null,
+      "revisit": "2026-09-30"
+    },
+    {
+      "id": "D6",
+      "date": "2026-08-18",
+      "decision": "Pause new skills for a hiring-manager review pass and front-door rewrite",
+      "rationale": "A six-persona review found the interior over-delivering and the front door underselling; fixing conversion beats adding inventory",
+      "supersedes": null,
+      "revisit": null
+    }
+  ]
+}

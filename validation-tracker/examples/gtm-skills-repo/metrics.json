@@ -1,0 +1,98 @@
+{
+  "name": "gtm-skills repo (this repository tracking itself)",
+  "as_of": "2026-09-04",
+  "miss_decision_window_days": 21,
+  "note": "All values are real and checkable against the public git history of github.com/esmefong/gtm-skills.",
+  "metrics": [
+    {
+      "id": "skills_shipped",
+      "description": "Complete skills pushed to main in the week",
+      "unit": "skills/week",
+      "floor": 1,
+      "target": 2,
+      "weekly": [
+        {
+          "week_ending": "2026-07-12",
+          "value": 1
+        },
+        {
+          "week_ending": "2026-07-19",
+          "value": 1
+        },
+        {
+          "week_ending": "2026-07-26",
+          "value": 1
+        },
+        {
+          "week_ending": "2026-08-02",
+          "value": 2
+        },
+        {
+          "week_ending": "2026-08-09",
+          "value": 0
+        },
+        {
+          "week_ending": "2026-08-16",
+          "value": 1
+        },
+        {
+          "week_ending": "2026-08-23",
+          "value": 1
+        },
+        {
+          "week_ending": "2026-08-30",
+          "value": 0
+        },
+        {
+          "week_ending": "2026-09-06",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "commits_to_main",
+      "description": "Commits landing on main in the week",
+      "unit": "commits/week",
+      "floor": 1,
+      "target": 2,
+      "weekly": [
+        {
+          "week_ending": "2026-07-12",
+          "value": 2
+        },
+        {
+          "week_ending": "2026-07-19",
+          "value": 3
+        },
+        {
+          "week_ending": "2026-07-26",
+          "value": 5
+        },
+        {
+          "week_ending": "2026-08-02",
+          "value": 2
+        },
+        {
+          "week_ending": "2026-08-09",
+          "value": 0
+        },
+        {
+          "week_ending": "2026-08-16",
+          "value": 1
+        },
+        {
+          "week_ending": "2026-08-23",
+          "value": 2
+        },
+        {
+          "week_ending": "2026-08-30",
+          "value": 0
+        },
+        {
+          "week_ending": "2026-09-06",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

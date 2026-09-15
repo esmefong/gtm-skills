@@ -1,0 +1,29 @@
+{
+  "customer": "TELUS",
+  "asset_type": "abm-onepager",
+  "goal": "Second-touch leave-behind for the platform-partner conversation opened by the outbound sequence",
+  "audience": "VP AI infrastructure / enterprise AI product (role-level)",
+  "voice_dir": "brand-voice-guide/examples/cohere/brand-voice/",
+  "facts": [
+    {
+      "fact": "Sovereign AI Factory expansion: Kamloops plus two Vancouver sites, 60,000+ GPUs by 2032",
+      "source": "https://www.rcrwireless.com/20260512/carriers/telus-ai-data-centers",
+      "date": "2026-05-12"
+    },
+    {
+      "fact": "Sovereign Canadian AI infrastructure carrying Cohere models went live in June 2026",
+      "source": "https://www.techtimes.com/articles/318753/20260620/canada-sovereign-ai-220m-bell-cohere-deal-puts-grace-blackwell-canadian-soil.htm",
+      "date": "2026-06-20"
+    }
+  ],
+  "must_cover": [
+    "what fills sovereign capacity",
+    "the private-deployment guarantee",
+    "the partnership shape"
+  ],
+  "constraints": [
+    "one page",
+    "no pricing",
+    "role-level only"
+  ]
+}

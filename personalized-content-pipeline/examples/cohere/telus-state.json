@@ -1,0 +1,34 @@
+{
+  "customer": "TELUS",
+  "created": "2026-07-21",
+  "fact_freshness_days": 120,
+  "assets": [
+    {
+      "date": "2026-07-21",
+      "type": "outbound-sequence",
+      "ref": "outbound-engine/examples/cohere/telus-sequence.json",
+      "opening": "Your AI Factory expansion is public: Kamloops, two new Vancouver sites, a target of 60,000 GPUs by 2032.",
+      "facts_used": [
+        "AI Factory expansion (rcrwireless 2026-05-12)"
+      ]
+    }
+  ],
+  "approved_language": [
+    "Your factory. Your customers' data. Our models, running inside both."
+  ],
+  "do_not_say": [
+    {
+      "phrase": "Bell AI Fabric",
+      "reason": "Documented judgment call from the outbound sequence: never name a rival's partnership in written first-line materials; surfaces on calls only",
+      "since": "2026-07-21"
+    }
+  ],
+  "corrections": [
+    {
+      "was": "a target of 60,000 GPUs by 2032",
+      "now": "60,000+ GPUs by 2032 (their materials say 60,000+)",
+      "source": "internal: prospect call (illustrative)",
+      "date": "2026-08-02"
+    }
+  ]
+}

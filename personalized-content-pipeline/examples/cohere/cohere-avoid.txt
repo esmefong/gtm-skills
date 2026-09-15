@@ -1,0 +1,6 @@
+# Cohere voice Avoid words, from brand-voice-guide/examples/cohere/brand-voice/writing-standard.md
+revolutionary
+game-changing
+cutting-edge
+unleash
+supercharge

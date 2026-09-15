@@ -71,7 +71,33 @@ ok "reengagement segmenter regenerates audience.json"
     --as-of 2026-09-04 --avoid cohere-avoid.txt >/dev/null)
 ok "outbound gate passes the reengagement sequence"
 
-# 8. the front door holds itself to the same standard
+# 8. personalized-content-pipeline: both gates hold on the asset, the guard refuses the bad draft
+python3 content-quality-check/scripts/check_content.py \
+  personalized-content-pipeline/examples/cohere/telus-abm-onepager.md \
+  --avoid personalized-content-pipeline/examples/cohere/cohere-avoid.txt >/dev/null
+ok "content linter clears the TELUS one-pager"
+(cd personalized-content-pipeline/examples/cohere && \
+  python3 ../../scripts/state_guard.py telus-abm-onepager.md telus-state.json \
+    --brief brief.json --as-of 2026-09-04 >/dev/null)
+ok "state guard clears the TELUS one-pager"
+if (cd personalized-content-pipeline/examples/cohere && \
+  python3 ../../scripts/state_guard.py telus-draft-rejected.md telus-state.json \
+    --as-of 2026-09-04 >/dev/null 2>&1); then
+  echo "FAIL: the rejected draft should be refused by the state guard"; exit 1
+fi
+ok "state guard refuses the rejected draft with reasons"
+
+# 9. validation-tracker: the real log passes, the broken log is refused
+(cd validation-tracker/examples/gtm-skills-repo && \
+  python3 ../../scripts/weekly_check.py metrics.json decisions.json >/dev/null)
+ok "validation tracker passes the real build log"
+if (cd validation-tracker/examples/gtm-skills-repo && \
+  python3 ../../scripts/weekly_check.py metrics.json decisions-broken.json >/dev/null 2>&1); then
+  echo "FAIL: the broken decision log should be refused"; exit 1
+fi
+ok "validation tracker refuses the broken decision log"
+
+# 10. the front door holds itself to the same standard
 python3 content-quality-check/scripts/check_content.py README.md >/dev/null
 ok "README clears the repo's own linter"
 

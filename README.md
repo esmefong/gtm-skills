@@ -70,8 +70,8 @@ to act, which is the judgment most AI GTM tooling skips.
 | [market-prioritization](market-prioritization/) | **A market slate to a defensible short list.** Weighted scoring plus sensitivity analysis showing which rankings survive an argument about the weights | Shipped |
 | [content-quality-check](content-quality-check/) | **A draft to a publish or revise verdict.** AI-tell linter plus an editorial pass, enforcing the brand's own Avoid list | Shipped |
 | [reengagement-segmenter](reengagement-segmenter/) | **A lapsed list to blocker segments.** Exclusions first, evidence-backed blocker per record, conflict flags, one gated motion per segment, and a documented leave-alone lane | Shipped |
-| personalized-content-pipeline | Branded, voice-checked content per customer from a structured brief | Planned |
-| validation-tracker | Weekly operating rhythm: benchmarks and an append-only decision log | Planned |
+| [personalized-content-pipeline](personalized-content-pipeline/) | **A brief to per-customer content with memory.** Durable state per customer (asset log, approved language, do-not-say rules), drafts in the brand voice, gated by the content linter and a deterministic state guard | Shipped |
+| [validation-tracker](validation-tracker/) | **A weekly rhythm with teeth.** Metrics against pre-set floors and targets, an append-only decision log with supersession, and a check that fails on the undocumented miss | Shipped |
 
 ## How these were built
 
