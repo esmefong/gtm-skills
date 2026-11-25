@@ -2,7 +2,7 @@
 
 [![verify](https://github.com/esmefong/gtm-skills/actions/workflows/verify.yml/badge.svg)](https://github.com/esmefong/gtm-skills/actions/workflows/verify.yml)
 
-Built by [Esme Fong](https://esmefong.com). I spent 14 years building data and growth systems, most
+Built by [Esme Fong](https://esmefong.com). I spent 15 years building data and growth systems, most
 recently an AI-enabled marketing operating system across three brands as a solo marketer, which cut
 content production cycle time by 50%. This repo is the reusable machinery from those systems,
 rebuilt in public: the research, sourcing, outreach, positioning, and quality layers of a
